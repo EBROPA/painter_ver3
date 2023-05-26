@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-buttons {
+  background: black;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  background: #b06ab3;
+  background: -webkit-linear-gradient(to right, #4568dc, #b06ab3);
+  background: linear-gradient(to right, #4568dc, #b06ab3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+}
+
+button {
+  margin-left: 20px;
+  background: #b06ab3;
+  background: linear-gradient(to right, #4568dc, #b06ab3);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: larger;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: linear-gradient(to right, #b06ab3, #4568dc);
+  color: white;
+}
+
+#pi_input {
+  margin-left: 20px;
+  border: 3px solid black;
+  cursor: pointer;
+}
+
+.range-container {
+  border: 3px solid black;
+  background: linear-gradient(to right, #f50a0a, #0a31f5);
+  display: flex;
+  width: 360px;
+  height: 45.6px;
+  margin-left: 30px;
+}
+
+.pValue {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.color-picker {
+  width: 80px;
+  margin-left: 30px;
+  margin-top: 7px;
+  background: linear-gradient(to left, #f50a0a, #0a31f5);
+  cursor: pointer;
+}
+
+.color-picker:hover {
+  cursor: pointer;
+}
